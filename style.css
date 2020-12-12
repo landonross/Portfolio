@@ -1,0 +1,28 @@
+body {
+    background-image: url("https://cdn.hipwallpaper.com/m/19/69/SGfIXn.jpg");
+    background-size: 150%;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+}
+
+.card {
+    margin: 3%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.needs-validation {
+    color: white;
+    margin: 3%;
+}
+
+.was-validated {
+    color: white;
+    margin: 3%;
+}
