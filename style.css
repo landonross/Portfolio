@@ -1,6 +1,26 @@
 body {
-    background-image: url("https://cdn.hipwallpaper.com/m/19/69/SGfIXn.jpg");
-    background-size: 150%;
+    background-image: url("essentials/background.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgb(2,7,11);
+}
+
+.aboutMe {
+    text-align: center;
+    position: relative;
+    color: white;
+    font-family: 'Megrim', cursive;
+    font-size: 70px;
+    font-weight: bolder;
+    /* transform:skew(60deg, -30deg) scaleY(.66667); */
+}
+
+.textBody {
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    line-height: 2.4;
 }
 
 .navbar-brand {
@@ -25,4 +45,8 @@ body {
 .was-validated {
     color: white;
     margin: 3%;
+}
+
+#linkedIn {
+    margin: 4%;
 }
