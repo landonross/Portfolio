@@ -52,3 +52,26 @@ body {
 #linkedIn {
     margin: 4%;
 }
+
+#icons {
+    color:rgb(28, 207, 198);
+    margin-left: 38%;
+    margin-top: 5%;
+    padding: 1%;
+}
+
+#instaIcon {
+    padding: 2%;
+}
+
+#facebookIcon {
+    padding: 2%;
+}
+
+#githubIcon {
+    padding: 2%;
+}
+
+#linkedinIcon {
+    padding: 2%;
+}
