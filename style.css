@@ -98,8 +98,8 @@ a:hover {
   .content .text{
     position: relative;
     color: color:rgb(28, 207, 198);;
-    font-weight: 700;
-    font-size: 45px;
+    font-weight: 600;
+    font-size: 35px;
     transform: scale(2);
     padding: 30px;
     letter-spacing: 2px;
