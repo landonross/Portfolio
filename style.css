@@ -40,6 +40,10 @@ body {
     object-fit: cover;
 }
 
+.card-deck {
+    margin: 2%;
+}
+
 .needs-validation {
     color: white;
     margin: 3%;
@@ -48,10 +52,6 @@ body {
 .was-validated {
     color: white;
     margin: 3%;
-}
-
-#linkedIn {
-    margin: 4%;
 }
 
 #icons {
