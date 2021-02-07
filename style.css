@@ -32,6 +32,8 @@ body {
 
 .card {
     margin: 3%;
+    background-color: rgb(34, 34, 34);
+    color: white
 }
 
 .card-img-top {
@@ -56,13 +58,14 @@ body {
 
 #icons {
     color:rgb(28, 207, 198);
-    margin-left: 38%;
-    margin-top: 5%;
-    padding: 1%;
+    position: fixed;
+    left: 38%;
+    bottom: 0;
+    width: 100%;
 }
 
 #instaIcon {
-    padding: 2%;
+    padding: 1%;
 }
 
 #facebookIcon {
