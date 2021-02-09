@@ -1,5 +1,4 @@
 body {
-    /* background-image: url("essentials/background.jpg"); */
     background-repeat: no-repeat;
     background-size: auto;
     background-color: rgb(24, 24, 24);
@@ -12,11 +11,16 @@ body {
     font-family: 'Megrim', cursive;
     font-size: 70px;
     font-weight: bolder;
-    /* transform:skew(60deg, -30deg) scaleY(.66667); */
+}
+
+.image {
+    height: 350px;
+    left: 40%;
+    position: relative;
 }
 
 .textBody {
-    margin-top: 40px;
+    margin-top: 10px;
     text-align: center;
     float: left;
     color: white;
@@ -24,6 +28,13 @@ body {
     line-height: 2.4;
     margin-left: 8%;
     margin-right: 8%;
+}
+
+.navbar {
+    padding: 0 !important;
+    margin-bottom: 32px !important;
+    padding-bottom: 0px !important;
+    margin-left: 15px !important;
 }
 
 .navbar-brand {
@@ -46,6 +57,23 @@ body {
     margin: 2%;
 }
 
+.resume {
+    position: relative;
+    left: 45%;
+}
+
+#button1 {
+  border-style: solid;
+  border-color: black;
+  width: auto;
+}
+
+#button2 {
+  border-style: solid;
+  border-color: black;
+  width: auto;
+}
+
 .needs-validation {
     color: white;
     margin: 3%;
@@ -58,7 +86,7 @@ body {
 
 #icons {
     color:rgb(28, 207, 198);
-    position: fixed;
+    position: relative;
     left: 38%;
     bottom: 0;
     width: 100%;
