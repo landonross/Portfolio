@@ -57,11 +57,13 @@ body {
 
 .card-deck {
     margin: 2%;
+    
 }
 
 .resume {
     position: relative;
-    left: 45%;
+    left: 42%;
+    font-size: 2.4vw;
 }
 
 #button1 {
