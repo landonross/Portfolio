@@ -92,22 +92,27 @@ body {
     left: 38%;
     bottom: 0;
     width: 100%;
+    height: 100%;
 }
 
 #instaIcon {
-    padding: 1%;
+    padding: 2%;
+    font-size: 3vw;
 }
 
 #facebookIcon {
     padding: 2%;
+    font-size: 3vw;
 }
 
 #githubIcon {
     padding: 2%;
+    font-size: 3vw;
 }
 
 #linkedinIcon {
     padding: 2%;
+    font-size: 3vw;
 }
 
 a {
@@ -132,7 +137,7 @@ a:hover {
     position: relative;
     color: color:rgb(28, 207, 198);;
     font-weight: 650;
-    font-size: 3vw;
+    font-size: 3.5vw;
     transform: scale(2);
     padding: 30px;
     letter-spacing: 2px;
