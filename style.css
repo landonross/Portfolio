@@ -5,7 +5,8 @@ body {
 }
 
 .image {
-    height: 350px;
+    height: 30%;
+    width: 30%;
     left: 35%;
     position: relative;
 }
