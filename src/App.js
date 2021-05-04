@@ -1,7 +1,7 @@
 import React from 'react';
 import Particles from "react-tsparticles";
 import './App.css';
-import BaseLayout from "./pages/BaseLayout.js";
+import Portfolio from "./pages/Portfolio.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import particlesOptions from "./particles.json";
 import About from './pages/About.js';
@@ -17,8 +17,8 @@ function App() {
                 <Particles options={particlesOptions} />
                 <Header />
                     <Switch>
-                        <Route exact path="/" component={BaseLayout} />
-                        <Route exact path="/Portfolio" component={BaseLayout} />
+                        <Route exact path="/" component={About} />
+                        <Route exact path="/Portfolio" component={Portfolio} />
                         <Route exact path="/About" component={About} />
                         <Route exact path="/Contact" component={Contact} />
                         <Route component={NoMatch} />

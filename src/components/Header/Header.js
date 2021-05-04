@@ -13,11 +13,11 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="collapsibleNavId">
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li className="nav-item">
-                    <Link className="nav-link" to="/">Portfolio</Link>
-                </li>
                 <li className="nav-item active">
                     <Link className="nav-link" to="/About">About</Link>
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link" to="/Portfolio">Portfolio</Link>
                 </li>
                 <li className="nav-item1">
                     <Link className="nav-link" to="/Contact">Contact</Link>
