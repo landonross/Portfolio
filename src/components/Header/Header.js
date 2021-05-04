@@ -1,15 +1,10 @@
 import React from "react";
 import "./style.css";
-import {
-    BrowserRouter as Router,
-    // Switch,
-    // Route,
-    Link
-  } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
-    <Router>
+    <div>
          <nav className="navbar navbar-expand-sm p-3 mb-5">
         <Link className="navbar-brand text-white" to="/">Landon Ross</Link>
         <button className="navbar-toggler d-lg-none navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
@@ -22,15 +17,15 @@ function Header() {
                     <Link className="nav-link" to="/">Portfolio</Link>
                 </li>
                 <li className="nav-item active">
-                    <Link className="nav-link" to="/about">About</Link>
+                    <Link className="nav-link" to="/About">About</Link>
                 </li>
                 <li className="nav-item1">
-                    <Link className="nav-link" to="/contact">Contact</Link>
+                    <Link className="nav-link" to="/Contact">Contact</Link>
                 </li>
         </ul>
         </div>
     </nav>
-    </Router>
+    </div>
     )
 }
 
