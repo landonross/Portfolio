@@ -1,0 +1,19 @@
+.navbar {
+    color: white;
+    font-family: 'Jura', sans-serif;
+    padding: 0 !important;
+    margin-bottom: 32px !important;
+    padding-bottom: 0px !important;
+    margin-left: 0px !important;
+    text-indent: 10px;
+    position: fixed;
+    z-index: 999;
+    width: 100vw;
+    background-color: rgba(24, 24, 24, 0.8);
+}
+
+.nav-link {
+    color: rgb(40, 179, 189);
+    font-weight: bolder;
+}
+

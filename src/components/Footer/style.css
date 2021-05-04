@@ -1,0 +1,12 @@
+#icons {
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #282c34d2;
+}
+
+a {
+    margin-left: 20px;
+    color: rgb(40, 179, 189);
+}
