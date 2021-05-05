@@ -1,10 +1,11 @@
 import React, {useContext} from "react";
 import ArticleContext from "../../utils/ArticleContext.js";
+import "./style.css"
 
 function ProjectCard() {
     const {name, info, image, link} = useContext(ArticleContext)
     return (
-        <div>
+        <div id="cards">
             <div className="card mb-3" style={{maxWidth: "540px"}}>
                 <div className="row no-gutters">
                     <div className="col-md-4">

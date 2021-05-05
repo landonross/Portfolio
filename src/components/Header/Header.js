@@ -8,7 +8,7 @@ function Header() {
          <nav className="navbar navbar-expand-sm p-3 mb-5">
         <Link className="navbar-brand text-white" to="/">Landon Ross</Link>
         <button className="navbar-toggler d-lg-none navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" style={{marginRight: "2vw;"}}>
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" style={{marginRight: "2vw"}}>
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="collapsibleNavId">

@@ -3,12 +3,8 @@ import ProjectCard from "../components/ProjectCard/ProjectCard.js";
 import ArticleContext from "../utils/ArticleContext.js";
 
 function Portfolio() {
-    const [project, setProject] = useState({
-        name: "",
-        info: "",
-        image: "",
-        link: ""
-    });
+    const [project, setProject] = useState([{}]);
+    console.log(project);
 
     // useEffect(() => {
     //     console.log(project)
