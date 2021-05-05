@@ -13,18 +13,18 @@ function Contact() {
                     <form action="https://submit-form.com/ScahwqKy" className="needs-validation">
                         <div className="form-row">
                             <div className="col-sm-6 mb-3">
-                                <label for="validationTooltip01">Name</label>
+                                <label htmlFor="validationTooltip01">Name</label>
                                 <input type="text" className="form-control" id="validationTooltip01" name="name" placeholder="Joe Johnson" required />
-                                <div class="valid-tooltip" />
+                                <div className="valid-tooltip" />
                             </div>
                             <div className="col-sm-6 mb-3">
-                                <label for="validationTooltip02">Email</label>
+                                <label htmlFor="validationTooltip02">Email</label>
                                 <input type="text" className="form-control" id="validationTooltip02" name="email" placeholder="123@gmail.com" required />
-                                <div class="valid-tooltip" />
+                                <div className="valid-tooltip" />
                             </div>
                         </div>
                         <div className="mb-3">
-                            <label for="validationTextarea">Message</label>
+                            <label htmlFor="validationTextarea">Message</label>
                             <textarea className="form-control" id="validationTextarea" name="message" placeholder="I'm looking to create a page that..." required></textarea>
                         </div>
                         <button className="btn btn-primary" type="submit" id="submitButton">Submit form</button>

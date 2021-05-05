@@ -7,15 +7,14 @@ function Portfolio() {
     console.log(project);
 
     // useEffect(() => {
-    //     console.log(project)
+    //     setProject(ArticleContext)
     // }, [project]);
+    console.log(setProject);
 
     return (
-        <ArticleContext.Provider value={project}>
             <div>
-                <ProjectCard />
+                <ProjectCard ArticleContext={ArticleContext}/>
             </div>
-        </ArticleContext.Provider>
     )
 }
 

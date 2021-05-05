@@ -19,3 +19,8 @@
     box-shadow: 5px 5px 5px rgb(2, 2, 2);
     color: #282c34;
 }
+
+#contactLink {
+    margin: 0;
+    padding: 0;
+}
