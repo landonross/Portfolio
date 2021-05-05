@@ -1,14 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+import ProjectCard from "../components/ProjectCard/ProjectCard.js";
+import ArticleContext from "../utils/ArticleContext.js";
 
-function BaseLayout() {
+function Portfolio() {
+    const [project, setProject] = useState({
+        name: "",
+        info: "",
+        image: "",
+        link: ""
+    });
 
+    // useEffect(() => {
+    //     console.log(project)
+    // }, [project]);
 
-    
     return (
-        <div>
-            
-        </div>
+        <ArticleContext.Provider value={project}>
+            <div>
+                <ProjectCard />
+            </div>
+        </ArticleContext.Provider>
     )
 }
 
-export default BaseLayout
+export default Portfolio
