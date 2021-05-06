@@ -20,6 +20,7 @@ function ProjectCard(ArticleContext) {
                                             <h5 className="card-title">{item.name}</h5>
                                             <p className="collapsible-body">{item.info}</p>
                                             <a href={item.link}>Visit Page</a>
+                                            <a href={item.github}>View Code</a>
                                         </div>
                                     </div>
                                 </div>
