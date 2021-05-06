@@ -15,7 +15,7 @@ let ArticleContext = {
     {
       "name": "Burgers App",
       "info": "Page for ordering and arranging burgers that you have tried and devoured.",
-      "image": "images/burger.png",
+      "image": "images/burgers.png",
       "link": "https://afternoon-sands-84662.herokuapp.com/"
     },
     {
@@ -27,7 +27,7 @@ let ArticleContext = {
     {
       "name": "Employee Directory",
       "info": "MongoDB database storage that stores Employees and allows user to search by name to find specific employees and their information.",
-      "image": "images/employeeDirectory.png",
+      "image": "images/employeeTracker.png",
       "link": "https://empoyee-directory.herokuapp.com/"
     },
     {
