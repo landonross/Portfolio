@@ -4,23 +4,28 @@ import "./style.css"
 
 function ProjectCard(ArticleContext) {
     console.log(ArticleContext);
-   const portfolios = ArticleContext.ArticleContext.portfolio[0];
+    const portfolios = ArticleContext.ArticleContext.portfolio;
     return (
-        <div id="cards">
-            <div className="card mb-3" style={{maxWidth: "540px"}}>
-                <div className="row no-gutters">
-                    <div className="col-md-4">
-                        <img src={`${portfolios.image}`} className="card-img" alt="..." />
-                    </div>
-                    <div className="col-md-8">
-                        <div className="card-body">
-                            <h5 className="card-title">{portfolios.name}</h5>
-                            <p className="card-text">{portfolios.info}</p>
-                            <p className="card-text">{portfolios.link}
-                                {/* <small className="text-muted">Last updated 3 mins ago</small> */}
-                                </p>
-                        </div>
-                    </div>
+        <div>
+            <p className="portfolio">My Work</p>
+            <div id="cards">
+                <div class="row row-cols-1 row-cols-sm-2">
+                    {
+                        portfolios.map((item) => {
+                            return (
+                                <div className="cardImg col-sm-4">
+                                    <div className="card bg-dark mb-3">
+                                        <img src={item.image} class="card-img-top" alt="..." id="images" />
+                                        <div className="cardText">
+                                            <h5 className="card-title">{item.name}</h5>
+                                            <p className="collapsible-body">{item.info}</p>
+                                            <a href={item.link}>Visit Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
                 </div>
             </div>
         </div>

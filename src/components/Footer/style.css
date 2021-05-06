@@ -1,9 +1,11 @@
 #icons {
-    position:absolute;
+    position:relative;
     bottom: 0;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #282c34d2;
+    margin-top: 50px;
+    width: 200px;
 }
 
 a {

@@ -1,12 +1,8 @@
 import React from "react";
-import Header from "../components/Header/Header.js"
-import Footer from "../components/Footer/Footer.js"
 import "../index.css"
 
 function Contact() {
     return (
-        <div>
-            <Header />
             <div>
                 <p className="contactMe">CONTACT</p>
                 <div className="idForm">
@@ -32,8 +28,6 @@ function Contact() {
                     </form>
                 </div>
             </div>
-            <Footer />
-        </div >
     )
 }
 
