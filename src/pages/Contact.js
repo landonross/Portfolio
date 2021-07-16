@@ -3,7 +3,7 @@ import "../index.css"
 
 function Contact() {
     return (
-            <div>
+            <div className="h-screen">
                 <p className="contactMe">CONTACT</p>
                 <div className="idForm">
                     <form action="https://submit-form.com/ScahwqKy" className="needs-validation">

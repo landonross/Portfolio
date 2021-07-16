@@ -9,12 +9,12 @@ import Contact from './pages/Contact.js';
 import NoMatch from "./pages/NoMatch.js";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+// import "tailwindcss/tailwind.css";
 
 function App() {
     return (
         <Router>
             <div className="App">
-                <Particles options={particlesOptions} />
                 <Header />
                     <Switch>
                         <Route exact path="/" component={About} />
@@ -23,6 +23,7 @@ function App() {
                         <Route exact path="/Contact" component={Contact} />
                         <Route component={NoMatch} />
                     </Switch>
+                <Particles options={particlesOptions} />
                 <Footer />
             </div>
         </Router>
