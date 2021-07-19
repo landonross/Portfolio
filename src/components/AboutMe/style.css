@@ -29,3 +29,11 @@
     margin: 0;
     padding: 0;
 }
+
+.fontFamily-jura {
+    font-family: 'Jura', sans-serif;
+}
+
+.fontFamily-megrim {
+    font-family: 'Megrim', cursive;
+}

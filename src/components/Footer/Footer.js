@@ -3,7 +3,7 @@ import React from "react";
 const navigation = [
         {
           name: 'Facebook',
-          href: '#',
+          href: 'https://www.facebook.com/landonwayneross',
           icon: (props) => (
             <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
               <path
@@ -16,7 +16,7 @@ const navigation = [
         },
         {
           name: 'Instagram',
-          href: '#',
+          href: 'https://www.instagram.com/landon.w.ross/?hl=en',
           icon: (props) => (
             <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
               <path
@@ -29,7 +29,7 @@ const navigation = [
         },
         {
           name: 'GitHub',
-          href: '#',
+          href: 'https://github.com/landonross',
           icon: (props) => (
             <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
               <path
@@ -42,9 +42,9 @@ const navigation = [
         },
       ]
       
-      export default function Example() {
+      export default function Footer() {
         return (
-          <footer className="bg-black mb-auto">
+          <footer className="bg-warmGray-800 mb-auto">
             <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
               <div className="flex justify-center space-x-6 md:order-2">
                 {navigation.map((item) => (
@@ -55,7 +55,7 @@ const navigation = [
                 ))}
               </div>
               <div className="mt-8 md:mt-0 md:order-1">
-                <p className="text-center text-base text-gray-400">&copy; 2020 LR Programming, All rights reserved.</p>
+                <p className="text-center text-base text-warmGray-200">&copy; 2020 LR Programming, All rights reserved.</p>
               </div>
             </div>
           </footer>
@@ -69,5 +69,5 @@ const navigation = [
 //         <a href="https://github.com/landonross"><span className="fa fa-github fa-2x" id="githubIcon"
 //                 aria-hidden="true"></span></a>
 //         <a href="https://www.linkedin.com/in/landon-ross-433a5213a/"><span className="fa fa-linkedin fa-2x"
-//                 id="linkedinIcon" aria-hidden="true"></span></a>
+//                 id="linkedinIcon aria-hidden="true"></span></a>
 //     </div>
