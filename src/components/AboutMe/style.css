@@ -25,6 +25,16 @@
     color: #282c34;
 }
 
+@media screen and (max-width: 576px) { 
+    .selfie {
+        left: 25%;
+    }
+
+    .textBody {
+        font-size: 1.1rem;
+    }
+}
+
 #contactLink {
     margin: 0;
     padding: 0;

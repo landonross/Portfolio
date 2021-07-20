@@ -13,7 +13,7 @@ export default function Contact() {
           <div className="max-w-lg mx-auto">
             <h2 className="text-2xl font-extrabold tracking-tight text-warmGray-200 sm:text-3xl fontFamily-megrim">Contact</h2>
             <p className="mt-3 text-lg leading-6 text-warmGray-200 fontFamily-jura">
-              To start the journey of building your dream website you can contact me via the following forms of communication. You may also fill out the form below and I will get back to you within 2 business days. I look forward to hearing from you!
+              To start the journey of building your dream website you can contact me via the following forms of communication. You may also fill out the provided form and I will get back to you within 2 business days. I look forward to hearing from you!
             </p>
             <dl className="mt-8 text-base text-warmGray-200">
               {/* <div>
