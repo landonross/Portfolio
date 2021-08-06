@@ -1,6 +1,11 @@
 import React from "react";
 // import ArticleContext from "../../utils/ArticleContext.js";
-import "./style.css"
+import "./style.css";
+import btr from "./images/btr.png";
+import barkle from "./images/barkle.png";
+import garden from "./images/garden.png";
+import employee from "./images/employee.png";
+import profile from "./images/profile.jpg";
 
 const posts = [
     {
@@ -12,12 +17,12 @@ const posts = [
       date: 'June, 2021',
       datetime: '2021-06-15',
       imageUrl:
-        'images/btr.png',
+        btr,
       author: {
         name: 'Landon Ross',
         href: 'https://github.com/landonross/parents_page',
         imageUrl:
-          'images/profile.jpg',
+          profile,
       },
     },
     {
@@ -29,12 +34,12 @@ const posts = [
       date: 'May, 2021',
       datetime: '2021-05-12',
       imageUrl:
-        'images/garden.png',
+        garden,
       author: {
         name: 'Landon Ross',
         href: 'https://github.com/arianaw15/Garden-Overflow',
         imageUrl:
-          'images/profile.jpg',
+          profile,
       },
     },
     {
@@ -46,12 +51,12 @@ const posts = [
       date: 'April, 2021',
       datetime: '2021-04-10',
       imageUrl:
-        'images/barkle.png',
+        barkle,
       author: {
         name: 'Landon Ross',
         href: 'https://github.com/Jpeyton-hub/Barkle',
         imageUrl:
-          'images/profile.jpg',
+          profile,
       },
     },
     {
@@ -63,12 +68,12 @@ const posts = [
         date: 'March, 2021',
         datetime: '2021-03-15',
         imageUrl:
-          'images/employee.png',
+          employee,
         author: {
           name: 'Landon Ross',
           href: 'https://github.com/Jpeyton-hub/Barkle',
           imageUrl:
-            'images/profile.jpg',
+            profile,
         },
       }
   ]
