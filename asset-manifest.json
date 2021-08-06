@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/landonross/Portfolio/static/css/main.eaa290dd.chunk.css",
+    "main.js": "/landonross/Portfolio/static/js/main.95756843.chunk.js",
+    "main.js.map": "/landonross/Portfolio/static/js/main.95756843.chunk.js.map",
+    "runtime-main.js": "/landonross/Portfolio/static/js/runtime-main.65f5a54f.js",
+    "runtime-main.js.map": "/landonross/Portfolio/static/js/runtime-main.65f5a54f.js.map",
+    "static/js/2.6571dce0.chunk.js": "/landonross/Portfolio/static/js/2.6571dce0.chunk.js",
+    "static/js/2.6571dce0.chunk.js.map": "/landonross/Portfolio/static/js/2.6571dce0.chunk.js.map",
+    "index.html": "/landonross/Portfolio/index.html",
+    "static/css/main.eaa290dd.chunk.css.map": "/landonross/Portfolio/static/css/main.eaa290dd.chunk.css.map",
+    "static/js/2.6571dce0.chunk.js.LICENSE.txt": "/landonross/Portfolio/static/js/2.6571dce0.chunk.js.LICENSE.txt",
+    "static/media/barkle.8681bc66.png": "/landonross/Portfolio/static/media/barkle.8681bc66.png",
+    "static/media/btr.8de3495b.png": "/landonross/Portfolio/static/media/btr.8de3495b.png",
+    "static/media/employee.9411f6de.png": "/landonross/Portfolio/static/media/employee.9411f6de.png",
+    "static/media/garden.4b2d445c.png": "/landonross/Portfolio/static/media/garden.4b2d445c.png",
+    "static/media/profile.65f6951c.jpg": "/landonross/Portfolio/static/media/profile.65f6951c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65f5a54f.js",
+    "static/js/2.6571dce0.chunk.js",
+    "static/css/main.eaa290dd.chunk.css",
+    "static/js/main.95756843.chunk.js"
+  ]
+}
