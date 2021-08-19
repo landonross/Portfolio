@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "homepage": "https://github.com/landonross/Portfolio",
+  "homepage": ".",
   "version": "15.2.1",
   "private": true,
   "engines": {
