@@ -48,7 +48,7 @@ export default function Contact() {
             </dl>
           </div>
         </div>
-        <div className="bg-warmGray-200 py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+        <div className="bg-warmGray-200 py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12 my-12">
           <div className="max-w-lg mx-auto lg:max-w-none">
             <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">
               <div>
