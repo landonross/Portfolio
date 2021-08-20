@@ -4,6 +4,7 @@ import { MailIcon, PhoneIcon, DocumentIcon} from '@heroicons/react/outline'
 
 export default function Contact() {
   return (
+    <div className="min-h-screen">
     <div className="relative bg-transparent">
       <div className="absolute inset-0">
         <div className="absolute inset-y-0 left-0 w-1/2 bg-transparent" />
@@ -114,6 +115,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }
