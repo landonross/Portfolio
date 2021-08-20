@@ -3,7 +3,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-informational "License Badge")
 
-A page created to showcase my projects as well as a way for others to reach out and contact me for designing and building webpages.
+A page created to showcase recent projects I have worked on as well as a way for others to reach out and contact me for designing and building webpages.
 
 * [Installation](#Installation)
 
